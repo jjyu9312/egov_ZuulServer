@@ -10,6 +10,7 @@ import org.springframework.cloud.netflix.zuul.EnableZuulProxy;
 @EnableDiscoveryClient
 public class ZuulServerApplication {
 
+	// zuul 서버는 API Gateway 역할만 담당
 	public static void main(String[] args) {
 		SpringApplication.run(ZuulServerApplication.class, args);
 	}
